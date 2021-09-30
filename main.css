@@ -1,110 +1,169 @@
 h2{
-	font-family: Helvetica;
-	position: fixed;
-	color: red;
-	font-size: 20px;
-	
+	font-family: Courier;
+	color: white;
+	filter: drop-shadow(2px 2px black);
 }
 
-#speaker{
-	font-family: Helvetica;
-	display: inline-block;
-	color: red;
-	padding-left: 300px;
-	position: absolute;
-	top: 82.3%;
-}
-
-#speaker2{
-	font-family: Helvetica;
-	display: inline-block;
-	padding-left: 300px;
-	position: absolute;
-	top: 86%;
-}
-
-#container1{
-	font-family: Helvetica;
-	display: block;
-	float: left;
- position: fixed;
-    top: 10%;
-
-	color: red;
-	width: 250px;
-	height: 55px;
-	border: solid red 1px;
-	padding: 10px;
-	
-
+body{
+	background-color: slateblue;
 }
 
 
-#container2{
-	font-family: Helvetica;
-	display: block;
-	 float: left;
-    clear: left;
-     position: fixed;
-    top: 19%;
+			.square{
+			position: absolute;
+			 background-color: red;
+			  width: 300px;
+			  height: 40px;
+			  top: 100px;
+			  left: 300px;
+			   
+			}
 
 
-	color: red;
-	width: 250px;
-	height: 300px;
-	border: solid red 1px;
-    height: 73px;
-    padding: 10px;
-   
-}
-
-#container3{
-	font-family: Helvetica;
-	display: block;
-	color: red;
-	width: 250px;
-	height: 40px;
-	border: solid red 1px;
-	padding: 10px;
-	float: left;
-	clear: left;
-	 position: fixed;
-    top: 28%;
-
-   
-}
-
-#container4{
-	font-family: Helvetica;
-	display:block;
-	color: red;
-	width: 250px;
-	height: 40px;
-	border: solid red 1px;
-	padding: 10px;
-	float: left;
-	clear: left;
-	 position: fixed;
-    top: 35%;
-	
- 
-}
-
-#samaaya{
-	font-family: Helvetica;
-	color: red;
-	font-style: italic;
-	padding-top: 15px;
-	padding-bottom: 15px
-
-}
+			.div1{
+				position: absolute;
+			background-color: red;
+			  width: 50px;
+			  height: 180px;
+			   top: 140px;
+			  left: 300px;
+			  
+			 
+			}
 
 
-main{
-	font-family: Helvetica;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 350px;
-	padding-right: 550px;
+			.div2{
+				position: absolute;
+				background-color: red;
+			  width: 300px;
+			  height: 40px;
+			 top: 300px;
+			  left: 300px;
+			 
+			}
 
-}
+			.div3{
+				position: absolute;
+				background-color: red;
+			  width: 50px;
+			  height: 180px;
+			    top: 140px;
+			  left: 560px;
+			  
+			}
+
+
+
+
+		.circle{
+			position: absolute;
+			 background-color: yellow;
+			  width: 40px;
+			  height: 200px;
+			  border-radius: 50%;
+			  
+			  top: 180px;
+			  left: 700px;
+
+			  
+			}
+
+			.cir2{
+				position: absolute;
+			background-color: yellow;
+			  width: 40px;
+			  height: 200px;
+			  border-radius: 50%;
+			   top: 180px;
+			  left: 900px;
+			  
+			  
+			  
+			}
+
+			.cir3{
+				position: absolute;
+				background-color: yellow;
+			  width: 40px;
+			  height: 200px;
+			  border-radius: 50%;
+			  transform: rotate(90deg);
+			  
+			 top: 180px;
+			  left: 800px;
+
+			
+			}
+
+			
+			
+
+
+			.tri1{
+				position: absolute;
+			 background-color: limegreen;
+			  width: 5px;
+			  height: 250px;
+			 top: 500px;
+			  left: 500px;
+			}
+
+			.tri2{
+				position: absolute;
+				background-color: limegreen;
+			  width: 40px;
+			  height: 290px;
+			  border-radius: 30%;
+			  transform: rotate(-45deg);
+			  
+			 top: 460px;
+			  left: 580px;
+			}
+
+			.tri3{
+				position: absolute;
+			 background-color: limegreen;
+			  width: 20px;
+			  height: 250px;
+			  border-radius: 80%;
+			 top: 500px;
+			  left: 700px;
+			}
+
+
+			.tri4{
+				background-color: HOTPINK;
+			  width: 300px;
+			  height: 300px;
+			border-radius: 50%;
+			   position: absolute;
+			  top: 500px;
+			  left: 800px;
+			}
+
+
+			.tri5{
+				background-color: skyblue;
+			  width: 50px;
+			  height: 300px;
+		
+			   position: absolute;
+			  top: 520px;
+			  left: 1200px;
+			}
+
+			.tri6{
+				background-color: skyblue;
+			  width: 100px;
+			  height: 100px;
+			border-radius: 50%;
+			   position: absolute;
+			  top: 850px;
+			  left: 1180px;
+			}
+
+
+			
+
+
+
