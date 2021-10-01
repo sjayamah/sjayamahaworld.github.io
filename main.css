@@ -1,46 +1,73 @@
-h2{
-	font-family: Courier;
-	color: white;
-	filter: drop-shadow(2px 2px black);
-}
-
 body{
-	background-color: slateblue;
+	background-color: black;
 }
 
+
+/*LETTER 0*/
 
 			.square{
 			position: absolute;
-			 background-color: red;
-			  width: 300px;
-			  height: 40px;
+			 background-color: rebeccapurple;
+			  width: 1200px;
+			  height: 300px;
 			  top: 100px;
 			  left: 300px;
-			   
+				
+			x-transition: all 1s ease-in-out;
+  		animation: ani2 1.7s infinite;  
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			}
 
 
 			.div1{
 				position: absolute;
-			background-color: red;
-			  width: 50px;
-			  height: 180px;
+			 background-color: orange;
+			 border-radius: 25px;
+			  width: 600px;
+			  height:300px;
 			   top: 140px;
 			  left: 300px;
-			  
-			 
+
+			x-transition: all 1s ease-in-out;
+  		animation: ani 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			}
 
 
 			.div2{
 				position: absolute;
-				background-color: red;
+				background-color: limegreen;
 			  width: 300px;
-			  height: 40px;
-			 top: 300px;
+			  height: 800px;
+			  top: 300px;
 			  left: 300px;
-			 
+
+				  x-transition: all 1s ease-in-out;
+  				animation: ani2 1.7s infinite;
+					transition-property: background-color;
+  				transition-duration: 800ms;
+  				transition-timing-function: ease-in-out;
+          transition-delay: 300ms;
+							 
 			}
+
+
+  							@keyframes ani2 {
+  0% {
+    left: 300;
+  }
+  50% {
+    left: 800px;
+  }
+  100% {
+    left: 300;
+  }
 
 			.div3{
 				position: absolute;
@@ -49,88 +76,140 @@ body{
 			  height: 180px;
 			    top: 140px;
 			  left: 560px;
-			  
+
+		
 			}
 
 
 
+
+/*LETTER H*/
 
 		.circle{
 			position: absolute;
 			 background-color: yellow;
-			  width: 40px;
+			  width: 400px;
 			  height: 200px;
 			  border-radius: 50%;
 			  
-			  top: 180px;
-			  left: 700px;
+			  top: 500px;
+			  left: 100px;
+
+
+			  x-transition: all 1s ease-in-out;
+  			animation: ani 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 
 			  
 			}
+
 
 			.cir2{
 				position: absolute;
-			background-color: yellow;
-			  width: 40px;
-			  height: 200px;
+			background-color: deeppink;
+			  width: 300px;
+			  height: 300px;
 			  border-radius: 50%;
 			   top: 180px;
 			  left: 900px;
+
+
+				x-transition: all 1s ease-in-out;
+  			animation: ani 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			  
-			  
-			  
+			  }
 			}
+
 
 			.cir3{
 				position: absolute;
-				background-color: yellow;
-			  width: 40px;
+				background-color: lightgoldenrodyellow;
+			  width: 400px;
 			  height: 200px;
 			  border-radius: 50%;
-			  transform: rotate(90deg);
+			  transform: rotate(45deg);
 			  
-			 top: 180px;
+			 top: 0px;
 			  left: 800px;
 
+				x-transition: all 1s ease-in-out;
+  			animation: ani 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			
 			}
 
-			
-			
-
+/*LETTER N*/
 
 			.tri1{
 				position: absolute;
 			 background-color: limegreen;
-			  width: 5px;
+			  width: 50px;
 			  height: 250px;
+
 			 top: 500px;
 			  left: 500px;
+
+				x-transition: all 1s ease-in-out;
+  			animation: ani2 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			}
 
 			.tri2{
 				position: absolute;
-				background-color: limegreen;
+				background-color: darkmagenta;
 			  width: 40px;
 			  height: 290px;
-			  border-radius: 30%;
-			  transform: rotate(-45deg);
-			  
-			 top: 460px;
+			  border-radius: 50%;
+			  top: 460px;
 			  left: 580px;
+
+
+				  x-transition: all 1s ease-in-out;
+  			animation: ani 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			}
 
 			.tri3{
 				position: absolute;
-			 background-color: limegreen;
-			  width: 20px;
+			 background-color: turquoise;
+			 transform: rotate(145deg);
+			  width: 500px;
 			  height: 250px;
-			  border-radius: 80%;
+			  border-radius: 50%;
 			 top: 500px;
 			  left: 700px;
+
+				     x-transition: all 1s ease-in-out;
+  			animation: ani 1.7s infinite;  
+				
+			transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 			}
 
-
+/*LETTER O*/
 			.tri4{
 				background-color: HOTPINK;
 			  width: 300px;
@@ -138,32 +217,141 @@ body{
 			border-radius: 50%;
 			   position: absolute;
 			  top: 500px;
-			  left: 800px;
+			  left: 200px;
+
+				     
+			   
 			}
 
+/*EXCLAMATION */
 
-			.tri5{
-				background-color: skyblue;
-			  width: 50px;
-			  height: 300px;
-		
-			   position: absolute;
-			  top: 520px;
-			  left: 1200px;
-			}
 
 			.tri6{
+				animation-name: colors2;
+animation-duration: 3.5s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
 				background-color: skyblue;
 			  width: 100px;
 			  height: 100px;
-			border-radius: 50%;
+				border-radius: 50%;
 			   position: absolute;
 			  top: 850px;
 			  left: 1180px;
-			}
+				     
+}
+
+  .star{
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid red;
+      position: relative;
+    }
+ 
+
+@keyframes colors {
+  0% {
+      background-color: HOTPINK;
+  }
+  50% {
+    background-color: yellow;
+    color: rgba(200,155,20,0.8);
+  }
+  100% {
+    background-color: limegreen;
+  }
+}
+
+@keyframes colors2 {
+  0% {
+      background-color: orange;
+  }
+  50% {
+    background-color: red;
+    color: rgba(200,155,20,0.8);
+  }
+  100% {
+    background-color: rebeccapurple;
+  }
+}
+
+  
+
+p {
+/*anmation properties*/
+animation-name: colors;
+animation-duration: 3.5s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
 
 
-			
+/*other properties*/
+font-family: 'helvetica', serif;
+font-size: 40px;
+width:300px;
+height:180px;
+padding:10px;
+color: white;
+background-color: black;
+}
 
+@keyframes colors {
+  0% {
+      background-color: HOTPINK;
+  }
+  50% {
+    background-color: yellow;
+    color: rgba(200,155,20,0.8);
+  }
+  100% {
+    background-color: limegreen;
+  }
+}
+
+							@keyframes ani {
+  0% {
+    left: 100;
+  }
+  50% {
+    left: 1000px;
+  }
+  100% {
+    left: 100;
+  }
+}
+
+.button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.button5:hover {
+  background-color: purple;
+  cursor: pointer;
+}
+
+.button6:hover {
+  background-color: deeppink;
+  cursor: pointer;
+}
 
 
