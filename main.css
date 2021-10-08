@@ -2,8 +2,34 @@ body{
 	background-color: black;
 }
 
+h2{
+	position: absolute;
+	font-family: helvetica;
+	font-size: 25px;
+	color: white;
+	z-index: 0;
+}
 
-/*LETTER 0*/
+
+.another{
+				position: absolute;
+			 background-color: yellow;
+			 border-radius: 25px;
+			  width: 400px;
+			  height:400px;
+			   bottom: 0px;
+			  right: 0px;
+			  z-index: 0;
+
+			 x-transition: all 2s ease-in-out;
+  		animation: ani6 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
+
+			}
+
 
 			.square{
 			position: absolute;
@@ -11,16 +37,16 @@ body{
 			  width: 1200px;
 			  height: 300px;
 			  top: 100px;
-			  left: 300px;
+			  left: 500px;
+			  z-index: 3;
 				
-			x-transition: all 1s ease-in-out;
-  		animation: ani2 1.7s infinite;  
+			x-transition: all 1s ease-in;
+  		animation: idk 1.7s infinite;  
 			transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
   		transition-delay: 300ms;
 			}
-
 
 			.div1{
 				position: absolute;
@@ -32,7 +58,7 @@ body{
 			  left: 300px;
 
 			x-transition: all 1s ease-in-out;
-  		animation: ani 1.7s infinite;	
+  		animation: ani4 1.7s infinite;	
   		transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
@@ -46,65 +72,53 @@ body{
 			  width: 300px;
 			  height: 800px;
 			  top: 300px;
-			  left: 300px;
-
-				  x-transition: all 1s ease-in-out;
+			 
+				  x-transition: all 1s ease;
   				animation: ani2 1.7s infinite;
 					transition-property: background-color;
   				transition-duration: 800ms;
   				transition-timing-function: ease-in-out;
-          transition-delay: 300ms;
+          transition-delay: 100ms;
 							 
 			}
 
 
-  							@keyframes ani2 {
-  0% {
-    left: 300;
-  }
-  50% {
-    left: 800px;
-  }
-  100% {
-    left: 300;
-  }
-
 			.div3{
 				position: absolute;
 				background-color: red;
-			  width: 50px;
+			  width: 180px;
 			  height: 180px;
-			    top: 140px;
-			  left: 560px;
+			  left: 900px;
+			  bottom: 0px;
 
-		
-			}
-
-
-
-
-/*LETTER H*/
-
-		.circle{
-			position: absolute;
-			 background-color: yellow;
-			  width: 400px;
-			  height: 200px;
-			  border-radius: 50%;
-			  
-			  top: 500px;
-			  left: 100px;
-
-
-			  x-transition: all 1s ease-in-out;
-  			animation: ani 1.7s infinite;  
-				
+			  x-transition: all 1s ease-in;
+  		animation: idk 1.7s infinite;  
 			transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
   		transition-delay: 300ms;
+		
+			}
 
+
+		.cir3{
+				position: absolute;
+				background-color: lightgoldenrodyellow;
+			  width: 400px;
+			  height: 200px;
+			  border-radius: 50%;
+			  transform: rotate(45deg);
+			  z-index: 4;
 			  
+			 top: 0px;
+			 left: 800px;	
+
+			   	x-transition: all 2s ease-in-out;
+  		animation: colors2 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;		
 			}
 
 
@@ -116,79 +130,53 @@ body{
 			  border-radius: 50%;
 			   top: 180px;
 			  left: 900px;
+				z-index: 4;
 
-
-				x-transition: all 1s ease-in-out;
-  			animation: ani 1.7s infinite;  
-				
-			transition-property: background-color;
+					x-transition: all 1s ease-in-out;
+  		animation: ani4 1.7s infinite;	
+  		transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
   		transition-delay: 300ms;
 			  
 			  }
-			}
 
-
-			.cir3{
-				position: absolute;
-				background-color: lightgoldenrodyellow;
-			  width: 400px;
-			  height: 200px;
-			  border-radius: 50%;
-			  transform: rotate(45deg);
-			  
-			 top: 0px;
-			  left: 800px;
-
-				x-transition: all 1s ease-in-out;
-  			animation: ani 1.7s infinite;  
-				
-			transition-property: background-color;
-  		transition-duration: 800ms;
-  		transition-timing-function: ease-in-out;
-  		transition-delay: 300ms;
-			
-			}
-
-/*LETTER N*/
-
-			.tri1{
-				position: absolute;
-			 background-color: limegreen;
-			  width: 50px;
-			  height: 250px;
-
-			 top: 500px;
-			  left: 500px;
-
-				x-transition: all 1s ease-in-out;
-  			animation: ani2 1.7s infinite;  
-				
-			transition-property: background-color;
-  		transition-duration: 800ms;
-  		transition-timing-function: ease-in-out;
-  		transition-delay: 300ms;
-			}
 
 			.tri2{
 				position: absolute;
 				background-color: darkmagenta;
-			  width: 40px;
+			  width: 100px;
+			  height: 200px;
+			  border-radius: 50%;
+			  top: 460px;
+			  left: 1300px;
+			  z-index: 1;
+
+			  x-transition: all 2s ease-in-out;
+  		animation: colors2 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
+			}
+
+			.another4{
+				position: absolute;
+				background-color: blue;
+			  width: 400px;
 			  height: 290px;
 			  border-radius: 50%;
 			  top: 460px;
 			  left: 580px;
 
-
-				  x-transition: all 1s ease-in-out;
-  			animation: ani 1.7s infinite;  
-				
-			transition-property: background-color;
+			x-transition: all 2s ease-in-out;
+  		animation: colors 1.7s infinite;	
+  		transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
   		transition-delay: 300ms;
 			}
+
 
 			.tri3{
 				position: absolute;
@@ -200,57 +188,188 @@ body{
 			 top: 500px;
 			  left: 700px;
 
-				     x-transition: all 1s ease-in-out;
-  			animation: ani 1.7s infinite;  
-				
-			transition-property: background-color;
+ 	x-transition: all 2s ease-in-out;
+  		animation: ani5 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms; 
+
+			}
+
+
+			.tri4{
+				background-color: HOTPINK;
+			  width: 350px;
+			  height: 350px;
+				border-radius: 50%;
+			  position: absolute;
+			  top: 0px;
+			  left: 100px;
+
+
+			  	x-transition: all 2s ease-in-out;
+  		animation: ani5 1.7s infinite;	
+  		transition-property: background-color;
   		transition-duration: 800ms;
   		transition-timing-function: ease-in-out;
   		transition-delay: 300ms;
+
 			}
 
-/*LETTER O*/
-			.tri4{
-				background-color: HOTPINK;
+						.tri4{
+				background-color: teal;
 			  width: 300px;
-			  height: 300px;
-			border-radius: 50%;
-			   position: absolute;
-			  top: 500px;
-			  left: 200px;
+			  height: 200px;
+				border-radius: 50%;
+			  position: absolute;
+			  top: 0px;
+			  left: 400px;
 
-				     
-			   
+
+			  	x-transition: all 2s ease-in-out;
+  		animation: ani7 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
+
 			}
-
-/*EXCLAMATION */
 
 
 			.tri6{
-				animation-name: colors2;
-animation-duration: 3.5s;
-animation-timing-function: linear;
-animation-delay: 0s;
-animation-iteration-count: infinite;
+				animation-duration: 3.5s;
+				animation-timing-function: linear;
+				animation-delay: 0s;
 				background-color: skyblue;
 			  width: 100px;
 			  height: 100px;
 				border-radius: 50%;
-			   position: absolute;
+			  position: absolute;
 			  top: 850px;
 			  left: 1180px;
+
+			x-transition: all 2s ease-in-out;
+  		animation: idk 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
 				     
 }
 
-  .star{
-      width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid red;
-      position: relative;
-    }
  
+.tri1{
+				position: absolute;
+			 background-color: lightgoldenrodyellow;
+			  width: 50px;
+			  height: 750px;
+			 top: 700px;
+			  left: 50px;
+
+			x-transition: all 2s ease-in-out;
+  		animation: ani7 1.7s infinite;	
+  		transition-property: background-color;
+  		transition-duration: 800ms;
+  		transition-timing-function: ease-in-out;
+  		transition-delay: 300ms;
+				
+			}
+
+
+
+  @keyframes ani5 {
+  0% {
+    bottom: 50;
+  }
+  50% {
+    left: 300px;
+  }
+  100% {
+    bottom: 50;
+  }
+
+			}
+
+
+
+  @keyframes ani2 {
+  0% {
+    left: 300;
+  }
+  50% {
+    left: 800px;
+  }
+  100% {
+    left: 300;
+  }
+
+			}
+
+
+	@keyframes idk {
+  0% {
+    left: 000;
+  }
+  50% {
+    left: 800px;
+  }
+  100% {
+    left: 000;
+  }
+
+}
+}
+
+	@keyframes ani3 {
+  0% {
+    left: 900;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 900;
+  }
+}
+
+		@keyframes ani4 {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 500px;
+  }
+  100% {
+    top: 0;
+  }
+
+}
+
+ @keyframes ani6 {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 300px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+ @keyframes ani7 {
+  0% {
+    top: 800;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 800;
+  }
+}
+
 
 @keyframes colors {
   0% {
@@ -277,81 +396,11 @@ animation-iteration-count: infinite;
     background-color: rebeccapurple;
   }
 }
-
-  
-
-p {
-/*anmation properties*/
-animation-name: colors;
-animation-duration: 3.5s;
-animation-timing-function: linear;
-animation-delay: 0s;
-animation-iteration-count: infinite;
-
-
-/*other properties*/
-font-family: 'helvetica', serif;
-font-size: 40px;
-width:300px;
-height:180px;
-padding:10px;
-color: white;
-background-color: black;
 }
 
-@keyframes colors {
-  0% {
-      background-color: HOTPINK;
-  }
-  50% {
-    background-color: yellow;
-    color: rgba(200,155,20,0.8);
-  }
-  100% {
-    background-color: limegreen;
-  }
-}
 
-							@keyframes ani {
-  0% {
-    left: 100;
-  }
-  50% {
-    left: 1000px;
-  }
-  100% {
-    left: 100;
-  }
-}
 
-.button:hover {
-  background-color: skyblue;
-  cursor: pointer;
-}
 
-.button2:hover {
-  background-color: red;
-  cursor: pointer;
-}
 
-.button3:hover {
-  background-color: yellow;
-  cursor: pointer;
-}
-
-.button4:hover {
-  background-color: green;
-  cursor: pointer;
-}
-
-.button5:hover {
-  background-color: purple;
-  cursor: pointer;
-}
-
-.button6:hover {
-  background-color: deeppink;
-  cursor: pointer;
-}
 
 
