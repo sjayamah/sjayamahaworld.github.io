@@ -1,7 +1,7 @@
 h2{
 	font-family: Helvetica;
 	position: fixed;
-	color: red;
+	color: cadetblue;
 	font-size: 20px;
 	
 }
@@ -9,7 +9,7 @@ h2{
 #speaker{
 	font-family: Helvetica;
 	display: inline-block;
-	color: red;
+	color: cadetblue;
 	padding-left: 300px;
 	position: absolute;
 	top: 82.3%;
@@ -30,10 +30,9 @@ h2{
  position: fixed;
     top: 10%;
 
-	color: red;
+	color: cadetblue;
 	width: 250px;
 	height: 55px;
-	border: solid red 1px;
 	padding: 10px;
 	
 
@@ -49,10 +48,9 @@ h2{
     top: 19%;
 
 
-	color: red;
+	color: cadetblue;
 	width: 250px;
 	height: 300px;
-	border: solid red 1px;
     height: 73px;
     padding: 10px;
    
@@ -61,10 +59,9 @@ h2{
 #container3{
 	font-family: Helvetica;
 	display: block;
-	color: red;
+	color: cadetblue;
 	width: 250px;
 	height: 40px;
-	border: solid red 1px;
 	padding: 10px;
 	float: left;
 	clear: left;
@@ -77,10 +74,9 @@ h2{
 #container4{
 	font-family: Helvetica;
 	display:block;
-	color: red;
+	color: cadetblue;
 	width: 250px;
 	height: 40px;
-	border: solid red 1px;
 	padding: 10px;
 	float: left;
 	clear: left;
@@ -92,7 +88,7 @@ h2{
 
 #samaaya{
 	font-family: Helvetica;
-	color: red;
+	color: cadetblue;
 	font-style: italic;
 	padding-top: 15px;
 	padding-bottom: 15px
