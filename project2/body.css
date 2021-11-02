@@ -1,0 +1,94 @@
+h1{
+	font-family: courier;
+	color: white;
+}
+
+body{
+	background-color: #00a651;
+}
+
+#origin{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: block;
+	float: left;
+ 	position: fixed;
+    top: 3%;
+	padding-left: 0px;
+}
+
+#destination{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: block;
+	float: left;
+ 	position: fixed;
+    top: 3%;
+	padding-left: 1550px;
+}
+
+#origin2{
+	font-family: courier;
+	font-size: 40px;
+	color: white;
+	display: block;
+	float: left;
+ 	position: fixed;
+    top: 4%;
+	padding-left: 0px;
+}
+
+#destination2{
+	font-family: courier;
+	font-size: 40px;
+	color: white;
+	display: block;
+	float: left;
+ 	position: fixed;
+    top: 4%;
+	padding-left: 1550px;
+}
+
+#time{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: block;
+ 	position: fixed;
+ 	top: 10%;
+	padding-left: 760px;
+}
+
+#speed{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: absolute;
+ 	position: fixed;
+    top: 95%;
+	padding-left: 0px;
+}
+
+#direction{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: block;
+ 	position: fixed;
+    top: 95%;
+	padding-left: 720px;
+}
+
+#altitude{
+	font-family: courier;
+	font-size: 20px;
+	color: white;
+	display: block;
+ 	position: fixed;
+    top: 95%;
+	padding-left: 1540px;
+}
+
+
