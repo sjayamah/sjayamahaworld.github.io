@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+}
+
+.O{
+			position: absolute;
+			background-color: hotpink;
+			  width: 330px;
+			  height: 330px;
+			  top: 200px;
+			  left: 250px;
+			  border-radius: 50%;
+}
+
+.OO{
+			position: absolute;
+			background-color: black;
+			  width: 100px;
+			  height: 100px;
+			  top: 230px;
+			  left: 320px;
+			  border-radius: 50%;
+			  z-index: 3;
+}
+
+
+.H1{
+			position: absolute;
+			background-color: limegreen;
+			  width: 100px;
+			  height: 300px;
+			  top: 230px;
+			  left: 620px;
+			  
+}
+
+.H2{
+			position: absolute;
+			background-color: limegreen;
+			   width: 200px;
+			  height: 100px;
+			  top: 320px;
+			  left: 630px;
+}
+
+
+.H3{
+			position: absolute;
+			background-color: limegreen;
+			  width: 100px;
+			  height: 300px;
+			  top: 230px;
+			  left: 800px;
+}
+
+
+.N1{
+			position: absolute;
+			background-color: skyblue;
+			  width: 100px;
+			  height: 300px;
+			  top: 570px;
+			  left: 640px;
+			  border-radius: 20px;
+}
+
+.N2{
+			position: absolute;
+			background-color: skyblue;
+			  width: 100px;
+			  height: 300px;
+			  top: 570px;
+			  left: 730px;
+			  border-radius: 20px;
+			  transform: rotate(-35deg);
+}
+.N3{
+			position: absolute;
+			background-color: skyblue;
+			  width: 100px;
+			  height: 300px;
+			  top: 570px;
+			  left: 820px;
+			  border-radius: 20px;
+}
+
+.O2{
+			position: absolute;
+			background-color: hotpink;
+			  width: 330px;
+			  height: 330px;
+			  top: 570px;
+			  left: 940px;
+			  border-radius: 50%;
+}
+
+.OOO{
+			position: absolute;
+			background-color: black;
+			  width: 100px;
+			  height: 100px;
+			  top: 610px;
+			  left: 990px;
+			  border-radius: 50%;
+			  z-index: 3;
+}
+
