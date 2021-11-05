@@ -9,6 +9,7 @@
         <h1> Flight No. BA462</h1>
     </center>
         <link rel="stylesheet" type="text/css" href="body.css">
+        <script src="body.js"></script>
         <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
         <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
@@ -23,7 +24,7 @@
         </div>
 
     <div id="destination">
-             Madrid
+             Singapore
         </div>
 
 
@@ -32,30 +33,64 @@
         </div>
 
     <div id="destination2">
-             MAD
+             SIN
         </div>
 
         <div id="time">
             <center>
-                3hr 34min
+                13hr 34min
             </center>
             
         </div>
 
+        <center>
 
-<style>
-.circle {
-  height: 500px;
-  width: 500px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  top: 40%;
-}
-</style>
-</head>
-<body>
+ <h1 id="clock">00 : 00 : 00</h1>
+<p id="hex-color"></p>
+</center>
+
+<script>
+    var clock = document.getElementById('clock');
+var color = document.getElementById('hex-color');
+
+function hexclock(){
+  
+  var time = new Date();
+  var hours = (time.getHours() % 12).toString();
+  var minutes = time.getMinutes().toString();
+  var seconds = time.getSeconds().toString();
+  
+  if(hours.length < 2) {
     
+    hours = '0' + hours;
+  }
+  
+  if(minutes.length < 2) {
+    
+    minutes = '0' + minutes;
+  }
+  
+    if(seconds.length < 2) {
+    
+    seconds = '0' + seconds;
+  }
+  
+  var clockString = hours + ' : ' + minutes + ' : ' + seconds; 
+  var hexColorString = "#" + hours + minutes + seconds;
+  
+  clock.textContent = clockString;
+  color.textContent = hexColorString;
+  
+  document.body.style.backgroundColor = hexColorString;
+}
+
+setInterval(hexclock, 1000);
+
+    </script>
+
+</head>
+
+<body>
 
 <div style="text-align:center">
 
@@ -75,8 +110,8 @@
          <div id="altitude">
               Altitude (ft)
         </div> 
-        
-       
+
+
         <p>
     </center>
     </body>
