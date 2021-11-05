@@ -47,7 +47,7 @@ body{
 	display: block;
 	float: left;
  	position: fixed;
-    top: 4%;
+    top: 4.5%;
 	padding-left: 1550px;
 }
 
@@ -57,7 +57,7 @@ body{
 	color: white;
 	display: block;
  	position: fixed;
- 	top: 10%;
+ 	top: 8%;
 	padding-left: 760px;
 }
 
@@ -78,7 +78,7 @@ body{
 	display: block;
  	position: fixed;
     top: 95%;
-	padding-left: 720px;
+	padding-left: 700px;
 }
 
 #altitude{
@@ -91,4 +91,13 @@ body{
 	padding-left: 1540px;
 }
 
+
+#clock{
+  font-weight:300;
+  font-size:60px;
+  position: fixed;
+  display: block;
+  top: 40%;
+  left: 630px;
+}
 
