@@ -24,7 +24,7 @@ border-radius: 10px;
 
 #bluedog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
    top: 570px;
 		left: 800px;
 }
@@ -44,7 +44,7 @@ border-radius: 10px;
   border-radius: 10px;
   padding: 5px;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   border-color: black;
 border-style: solid;
 font-size: 25px;
@@ -60,7 +60,7 @@ top: 100px;
 
 #orangedog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
    top: 250px;
 		left: 800px;
 }
@@ -82,7 +82,7 @@ top: 100px;
   border-radius: 10px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   left: 0;
   top: 110%;
   border-color: black;
@@ -99,7 +99,7 @@ top: 100px;
 
 #yellowdog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
    top: 70px;
 		left: 1200px;
 }
@@ -121,7 +121,7 @@ top: 100px;
   border-radius: 10px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   left: 0;
   top: 110%;
   border-color: black;
@@ -138,7 +138,7 @@ top: 100px;
 
 #pinkdog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
   top: 600px;
 		left: 300px;
 }
@@ -160,7 +160,7 @@ top: 100px;
   border-radius: 10px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   left: 0;
   top: 110%;
   border-color: black;
@@ -177,7 +177,7 @@ top: 100px;
 
 #purpledog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
   top: 100px;
 		left: 300px;
 }
@@ -199,7 +199,7 @@ top: 100px;
   border-radius: 10px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   left: 0;
   top: 110%;
   border-color: black;
@@ -216,7 +216,7 @@ top: 100px;
 
 #greendog {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
   top: 400px;
 		left: 100px;
 }
@@ -238,7 +238,7 @@ top: 100px;
   border-radius: 10px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
   left: 0;
   top: 110%;
   border-color: black;
